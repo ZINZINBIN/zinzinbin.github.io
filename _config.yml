@@ -6,19 +6,20 @@
 # --- Required options --- #
 
 # Name of website
-title: ZINZINBIN's Parallel World
+title: 
 
 # Your name to show in the footer
-author: KIM JINSU
+author: Jinsu Kim
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
+  CV: "cv"
+  Research: "research"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
