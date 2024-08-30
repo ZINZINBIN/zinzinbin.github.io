@@ -18,11 +18,10 @@ navbar-links:
   CV: "cv"
   Research: "research"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Notion for research arxiv: "https://bit.ly/JinsuKim-Research-Archive"
+    - Code development: "https://github.com/ZINZINBIN"
 
 # --- Logo --- #
-
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/assets/img/avatar-icon.png"
