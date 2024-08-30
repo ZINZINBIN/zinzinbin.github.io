@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Make my day
+title: Make my day :)
 
 # Your name to show in the footer
 author: Jinsu Kim
@@ -18,8 +18,8 @@ navbar-links:
   CV: "cv"
   Research: "research"
   Resources:
-    - Notion for research arxiv: "https://bit.ly/JinsuKim-Research-Archive"
-    - Code development: "https://github.com/ZINZINBIN"
+    - Research Note: "https://bit.ly/JinsuKim-Research-Archive"
+    - Code Dev: "https://github.com/ZINZINBIN"
 
 # --- Logo --- #
 # Image to show in the navigation bar - works best with a square image
@@ -31,7 +31,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: "/assets/img/avatar-icon.png"
+# title-img: "/assets/img/avatar-icon.png"
 
 # --- Footer social media links --- #
 
@@ -46,7 +46,7 @@ social-network-links:
   ORCID: 0009-0000-2610-4551
   google-scholar: "citations?hl=ko&user=bdGTQSkAAAAJ"
   youtube: "watch?v=iT90QX1MZWM&t=888s"
-#  medium: yourname
+  medium: zinzinbin
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
