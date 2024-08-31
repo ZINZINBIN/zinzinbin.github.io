@@ -13,16 +13,28 @@ author: Jinsu Kim
 
 # --- List of links in the navigation bar --- #
 navbar-links: "https://zinzinbin.github.io/"
+  Home: "https://zinzinbin.github.io/"
   About Me: "aboutme"
+  Post: "post"
+    - Math:
+      - Optimization: ""
+    - Physics: 
+      - Classical Mechanics: ""
+      - Electrodynamics: ""
+      - Statistical physics: ""
+      - Plasma physics: ""
+    - ML: 
+      - Physics-informed ML : ""
+      - Vision : ""
+      - NLP : ""
+      - Generative : ""
+      - RL : ""
+      - Meta Learning: ""
   CV: "https://docs.google.com/document/d/1BhAfJKpb1Ju4BZXJmjm0gbaRkU5XDH87/edit?usp=sharing&ouid=103232822913929091897&rtpof=true&sd=true"
-  Research: "research"
-  Resources:
-    - Research Note: "https://bit.ly/JinsuKim-Research-Archive"
-    - Code Dev: "https://github.com/ZINZINBIN"
+  Research: "https://bit.ly/JinsuKim-Research-Archive"
+  Code: "https://github.com/ZINZINBIN"
 
 # --- Logo --- #
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
 avatar: "/assets/img/coffee_circle.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'

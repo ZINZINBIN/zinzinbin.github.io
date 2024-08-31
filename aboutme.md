@@ -5,10 +5,10 @@ subtitle: Bridging the gap between science and engineering
 ---
 <div class="row">
   <div class="column">
-    <img src = "/assets/img/avatar-icon.png">
+    <img src = "./assets/img/self-profile.png" width="160" height="250">
   </div>
   <div class="column">
-    Hi! I'm Jinsu Kim. I'm a mechanical and aerospace engineering graduate student at Princeton University. My academic interests are mainly about fusion plasma physics and ML application. I have covered several topics, including plasma heat transport to RL control and optimization for fusion reactor. You can see sevearl works and posts at here. Any comment and opinion would be helpful, so please feel free to contact me if you have an interest in my work.  
+    Hi! I'm Jinsu Kim. I'm a mechanical and aerospace engineering graduate student at Princeton University. My academic interests are mainly about fusion plasma physics and ML application. I have covered several topics, including plasma heat transport to RL control and optimization for fusion reactor. You can see sevearl works and posts at here. Any comment and opinion would be helpful. Please feel free to contact me if you have an interest in my work.  
   </div>
 </div>
 
