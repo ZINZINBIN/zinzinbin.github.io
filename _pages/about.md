@@ -11,4 +11,4 @@ Hi there, 👋 I'm Jinsu Kim, a Ph.D graduate student in the department of mecha
 
 AI in Nuclear Fusion: Bridging the gap between science and engineering
 ---
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=iT90QX1MZWM)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/iT90QX1MZWM/0.jpg)](https://www.youtube.com/watch?v=iT90QX1MZWM)
