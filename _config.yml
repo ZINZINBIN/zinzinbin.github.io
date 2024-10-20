@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jinsu Kim / Ph.D Student"
+title                    : "Jinsu Kim"
 title_separator          : "-"
 name                     : &name "Jinsu Kim"
 description              : &description "Ph.D Student at Princeton University, Mechanical and Aerospace Engineering"
