@@ -1,5 +1,5 @@
 ---
-title: "Disruption prediction"
+title: "Disruption Prediction"
 layout: single-portfolio
 excerpt: "<img src='/images/research/disruption-prediction.png' alt=''>"
 collection: research
