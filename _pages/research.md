@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 header:
   og_image: ""
----
+--- 
 
 My academic research falls into two main areas: understanding the influence of
 geography on actor behavior before, during, and after civil conflict, and
