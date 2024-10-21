@@ -13,6 +13,8 @@ In nuclear fusion, I developed physics-informed neural operator for zeorth-order
 
 My next reserach topics will cover reduced modeling for nonlinear dynamics including plasma through physics-informed neural operator. 
 
+<img src='/images/research/research-loadmap.png' alt=''>
+
 <nbsp>
 
 {% include base_path %}
