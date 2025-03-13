@@ -15,45 +15,32 @@ My research goal is to bridge the gap between physics and machine learning, expe
 
 My computational works are shared on the <a href = "https://github.com/zinzinbin">github link</a>. Please see and share your opinions. 
 
-Research area
----
-### 🔥 Dynamics and Control
-
-<aside>
-📌 Model reduction on nonlinear dynamic systems
-
-&emsp; ***Structure-preserving model reduction for Vlasov-Poisson plasma system***
+# Research area
+## 🔥 Dynamics and Control
+### 📌 Model reduction on nonlinear dynamic systems
+#### Structure-preserving model reduction for Vlasov-Poisson plasma system
 - Development of Particle-In-Cell simulation in electrostatic plasma system
 - Symplectic model reduction for preserving Hamiltonian form in reduced space
-</aside>
 
-<aside>
-📌 Computational science and engineering
-
-&emsp; ***Symplectic integration of Particle-In-Cell method for plasma kinetic simulations***
+### 📌 Computational science and engineering
+#### Symplectic integration of Particle-In-Cell method for plasma kinetic simulations
 - Development on PIC with symplectic integration in electromagnetic plasma system
 - Spectral solver for electromagnetic PIC and application of parallel computation
-</aside>
 
-### ☀️ Nuclear Fusion
-
-<aside>
-📌 Data-driven modeling for fusion plasma and optimized control
-
-&emsp; ***Disruption prediction in KSTAR tokamak plasma with Deep Learning***
-
+## ☀️ Nuclear Fusion
+### 📌 Data-driven modeling for fusion plasma and optimized control
+#### Disruption prediction in KSTAR tokamak plasma with Deep Learning
 - Development of multi-modal deep neural network with multiple signals and IVIS for predicting thermal quench
 - Uncertainty modeling for high precision and causality estimation in disruption prediction with Bayesian deep learning
 
-&emsp; ***Data-driven modeling and control for tokamak plasma operation*** 
-
+#### Data-driven modeling and control for tokamak plasma operation
 - Development of physics-informed neural network for tokamak plasma simulation (Grad-Shafranov Physics-Informed Neural Network: GS-PINN)
 - Investigation for multi-objective plasma control with reinforcement learning
 
-&emsp; ***Design optimization of a tokamak reactor with data-driven approach***
-
+### 📌 Reactor Design Optimization
+#### Design optimization of a tokamak reactor with data-driven approaches
+- Development of tokamak reactor design computation code
 - Reactor design optimization for high performance and sustainable plasma operation based on bayesian optimization and reinforcement learning
-</aside>
 
 AI in Nuclear Fusion: Bridging the gap between science and engineering
 ---
