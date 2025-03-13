@@ -32,17 +32,17 @@ In nuclear fusion, I developed physics-informed neural operator for zeorth-order
 * Disruption prediction in KSTAR tokamak plasma with Deep Learning
 {% include base_path %}
 {% assign ordered_pages = site.research | sort:"order_number" %}
-{% include archive-single.html type="grid" post=order_pages[0]%}
+{% include archive-single.html type="grid" post=ordered_pages[0]%}
 
 * Data-driven modeling and control for tokamak plasma operation
 {% include base_path %}
 {% assign ordered_pages = site.research | sort:"order_number" %}
-{% include archive-single.html type="grid" post=order_pages[1]%}
+{% include archive-single.html type="grid" post=ordered_pages[1]%}
 
 ### 📌 Reactor Design Optimization
 * Design optimization of a tokamak reactor with data-driven approaches
 {% include base_path %}
 {% assign ordered_pages = site.research | sort:"order_number" %}
-{% include archive-single.html type="grid" post=order_pages[2]%}
+{% include archive-single.html type="grid" post=ordered_pages[2]%}
 
 <!-- <img src='/images/research/research-loadmap.png' alt='research-loadmap' width="100%"> -->
