@@ -7,8 +7,6 @@ header:
   og_image: "research/research-loadmap.png"
 ---
 
-{% include base_path %}
-
 My research goal is to explore and foster a data-driven modeling and control in nonlinear dynamics. The main target for nonlinear dynamics is plasma system, including MHD system and Vlasov-Maxwell kinetic system. Learning dynamics from data is important for modling complex systems and can be applied to several applications for state estimation, reduced modeling, and control. The key point of learning dynamics is to bridge the gap between physics domain knowledge and data-driven modeling, and I am now focusing on how to solve this discrepancy.
 
 ## Dynamics and Control
@@ -29,19 +27,10 @@ Data-driven methods leverage machine learning and optimization to infer governin
 ## Plasma Physics (Nuclear Fusion, MHD)
 In nuclear fusion, I developed physics-informed neural operator for zeorth-order plasma equilibrium for data-driven control with reinforcement learning. In addition, predicting plasma instabilities via multi-modal diagnostic data has been conducted with bayesian probabilistic learning for covering uncertainties in measurement. Lastly, I recently proceeded reactor design optimization through deep reinforcement learning.
 
-### 📌 Data-driven modeling for fusion plasma and optimized control
-
-* Disruption prediction in KSTAR tokamak plasma with Deep Learning
-{% assign ordered_pages = site.research | sort:"order_number" %}
-{% include archive-single.html type="grid" post=ordered_pages | first %}
-
-* Data-driven modeling and control for tokamak plasma operation
-{% assign second_post = ordered_pages | slice: 1, 1 | first %}
-{% include archive-single.html type="grid" post=second_post %}
-
-### 📌 Reactor Design Optimization
-* Design optimization of a tokamak reactor with data-driven approaches
-{% assign third_post = ordered_pages | slice: 2, 1 | first %}
-{% include archive-single.html type="grid" post=third_post %}
+{% include base_path %}
+{% assign ordered_pages = site.research | sort: "order_number" %}
+{% for post in ordered_pages %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
 
 <!-- <img src='/images/research/research-loadmap.png' alt='research-loadmap' width="100%"> -->
