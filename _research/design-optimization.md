@@ -8,6 +8,7 @@ header:
   og_image: "research/design-optimization.png"
 ---
 
+# Abstract
 This research explores the application of Deep Reinforcement Learning (DRL) to optimize the design of a nuclear fusion reactor. DRL can efficiently address the challenging issues attributed to multiple physics and engineering constraints for steady-state operation. The fusion reactor design computation and the optimization code applicable to parallelization with DRL are developed. The proposed framework enables finding the optimal reactor design that satisfies the operational requirements while reducing building costs. Multi-objective design optimization for a fusion reactor is now simplified by DRL, indicating the high potential of the proposed framework for advancing the efficient and sustainable design of future reactors.
 
 <iframe src="/files/Reactor-Design-Optimization.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
