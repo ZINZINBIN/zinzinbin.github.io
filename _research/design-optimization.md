@@ -31,14 +31,14 @@ The figures below represent the comparison between original designed tokamak (le
 
 - Overall performance (Left:reference, Right:PPO)
 <p float = 'left'>
-    <img src="/images/research/design-optimization/project_overall.png"  width="50%">
-    <img src="/images/research/design-optimization/ppo_overall.png"  width="50%">
+    <img src="/images/research/design-optimization/project_overall.png"  width="45%">
+    <img src="/images/research/design-optimization/ppo_overall.png"  width="45%">
 </p>
 
 - Design configuration (Left:reference, Right:PPO)
 <p float = 'left'>
-    <img src="/images/research/design-optimization/project_poloidal_design.png"  width="50%">
-    <img src="/images/research/design-optimization/ppo_poloidal_design.png"  width="50%">
+    <img src="/images/research/design-optimization/project_poloidal_design.png"  width="45%">
+    <img src="/images/research/design-optimization/ppo_poloidal_design.png"  width="45%">
 </p>
 
 ## Article
