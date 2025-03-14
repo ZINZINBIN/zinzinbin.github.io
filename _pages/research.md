@@ -46,9 +46,11 @@ This research applies Deep Reinforcement Learning (DRL) to streamline fusion rea
 
 The proposed multi-objective DRL framework simplifies reactor design by autonomously navigating trade-offs between performance and feasibility. This demonstrates the potential of AI-driven optimization for advancing the development of efficient and sustainable fusion reactors.
 
-&nbsp
+
 {% include base_path %}
+
 {% assign ordered_pages = site.research | sort: "order_number" %}
+
 {% for post in ordered_pages %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
