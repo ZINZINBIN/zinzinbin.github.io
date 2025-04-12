@@ -17,15 +17,29 @@ With increasing computational power and data availability, data-driven modeling 
 Data-driven methods leverage machine learning and optimization to infer governing equations and develop controllers from data, reducing reliance on explicit analytical models. Integrating these methods with physics-based insights has led to Physics-Informed Machine Learning (PIML), ensuring interpretability, stability, and generalizability
 
 ### 📌 Model reduction on nonlinear dynamic systems
-T.B.D
+Modern simulations often involve solving mathematical models with a myriad number of variables, makeing them computationally expensive and slow to run. This is where model reduction comes in. Model order reduction is a way to build efficient and low-cost approximation for surrogate modelling. The idea is to replace the original, high-dimensional model—known as the full-order model (FOM)—with a simplified version called a reduced-order model (ROM). This ROM captures the essential behavior of the system while being dramatically faster and easier to compute. 
 
-### 📌 Computational plasma physics
-T.B.D
+But for the physical systems governed by conservation laws or PDEs describing the dynamics, the reduced model must preserve the underlying structure of the original systems. Symplectic model order reduction, which preserves Hamiltonian structure of the system, has been highlighted since it ensures the fundamental geometry of Hamiltonian systems, preserving the stability, accuracy, and conservation of the energy during the simulation. Extension to nonlinear systems preserving Hamiltonian structure has been studied and the primary goal of this research is to apply the structure-preserving model order reduction into the plasma kinetics, one of the good examples of nonlinear dynamics for verification.
+
+<img src='/images/research/symplectic-model-reduction/Model-reduction.png' alt='model-reduction' width="100%">
 
 ## Plasma Dynamics
 Plasma is the fourth state of matter, consisting of a partially ioniszed gas of ions, electrons, and neutral particles. Plasma dynamics describes how these charged particles interact under electric and magnetic fields, leading to collective behavior unlike neutral gases. This results in unique phenomena such as plasma waves, instabilities, and turbulence. 
 
 One fundamental framework for describing plasma behavior is magnetohydrodynamics (MHD), treating plasma as a conducting fluid and combines fluid equations with Maxwell’s equations. However, many plasmas exhibit kinetic effects that require a more detailed description based on the Boltzmann equation and the Vlasov-Maxwell system.
+
+### 📌 Computational plasma physics
+<img src='/images/research/computational-plasma-physics/PIC_simulation.gif' alt='PIC_simulation' width="100%">
+
+Simulating the dynamics of charged particles in a plasma is a challenging task, especially because these systems live in high-dimensional phase space and involve complex interactions. One widely used technique in computational plasma physics to tackle this challenge is the Particle-In-Cell (PIC) method.
+
+The Particle-In-Cell (PIC) method is a widely employed numerical technique in computational plasma physics, particularly well-suited for simulating collisionless kinetic systems. It combines a Lagrangian treatment of particles—tracking their evolution in phase space—with an Eulerian discretization of fields and source terms on a fixed spatial mesh. This hybrid framework allows for a significant reduction in computational cost compared to direct simulation of high-dimensional kinetic equations, while still capturing essential particle-field interactions.
+
+In PIC approach, the plasma distribution function is discretized by Klimontovich representation. Each particle contributes to charge and current densities via interpolation to the mesh, enabling the solution of Maxwell’s or Poisson’s equations on the grid. The resulting fields are then interpolated back to the particle locations to update their trajectories. This iterative cycle enables the PIC method to resolve fine-scale kinetic effects and collective plasma behavior simultaneously.
+
+A simplified case of PIC with one-dimensional electrostatic plasma is developed to investigate the kinetic pheonmena such as two-stream instability and bump-on-tail instability. Application of the symplectic model order reduction based on PIC simulation is now being proceeded.
+
+<img src='/images/research/computational-plasma-physics/PIC-1.png' alt='PIC' width="100%">
 
 ### 📌 Plasma disruption prediction with data-driven approaches in fusion reactor device
 Plasma disruption is a major challenge in fusion plasma, requiring accurate prediction to maintain stable operation and prevent damage. Disruptions in tokamak plasmas involve a sudden loss of plasma, releasing massive energy and particles that can severely impact the reactor. During a thermal quench, the rapid collapse of plasma thermal energy increases the toroidal electric field, leading to the formation of runaway electrons. These high-energy electrons can strike plasma-facing components such as walls and divertors, causing erosion, melting, or structural damage. Additionally, the abrupt loss of plasma energy and current induces mechanical forces on the vessel, further stressing the device.
