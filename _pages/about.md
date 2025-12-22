@@ -7,17 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-Hi, 👋 I'm Jinsu Kim. I'm a Ph.D. graduate student in <a href = "https://mae.princeton.edu/">Department of Mechanical and Aerospace Engineering</a> at Princeton University. I received my B.S.and M.S. in Nuclear Engineering and Physics at Seoul National University. My research lies at plasma physics, physics-informed scientific computing, data-driven modeling and control. 
+Hi, 👋 I'm Jinsu Kim. I'm a Ph.D student of <a href = "https://mae.princeton.edu/">Mechanical and Aerospace Engineering</a> at Princeton University. I received my B.S.and M.S. in Nuclear Engineering and Physics at Seoul National University. My research focuses on plasma physics, reduced-order modeling, and optimal control.
 
-I am very interested in the potential of machine learning application in industry. As an applied scientist intern at <a href = "https://www.gausslabs.ai/">GaussLabs</a>, I researched data-driven modeling for plasma etching and diffusion process. I am now open to any internship for computational simulation and data-driven modeling. 
+I am particularly interested in the potential of machine learning for scientific and engineering applications. My previous work on data-driven modeling for nuclear fusion plasma includes: (1) Plasma instability modeling for disruption prediction, (2) PINN-based simulation for profile reconstruction, (3) Optimal control of plasma operation and instability suppression with RL, and (4) Reactor design optimization. 
 
-My research goal is to bridge the gap between physics and machine learning, expecially in data-driven modeling and control for nonlinear dynamics. Now, I am working on two topics: Structure-preserving model order reduction for Vlasov-Possion Plasma systems, and Data assimilation for Magnetohydrodynamic systems. If you have an interest in coworking, please feel free to contact me!
+My research goal is to bridge the gap between physics and data-driven modeling. Currently, I am working on two main topics: ***(1) Symplectic model reduction for nonlinear Hamiltonian systems***, and ***(2) Structure-preserving model reduction for Vlasov-Possion plasma systems***. More broadly, my research interests include data assimilation for magnetohydrodynamic plasmas and optimal control of kinetic plasma systems for instability suppression.
 
-My computational works are shared on the <a href = "https://github.com/zinzinbin">github link</a>. Please see and share your opinions. 
+My computational work is available on <a href = "https://github.com/zinzinbin">Github</a>. If you are interested in my research, please feel free to explore my work or contact me—comments and discussions are always welcome.
 
 # Research area
 ## Dynamics and Control
-### 📌 Model reduction on nonlinear dynamic systems
+### 📌 Model order reduction on nonlinear dynamic systems
+* Symplectic model order reduction for nonlinear Hamiltonian systems
+  * Variants of Proper Symplectic Decomposition: Extension of Cotangnent lift
+  * Integration with Stucture-preserving DEIM for reduction of nonlinearity computation
+
 * Structure-preserving model reduction for Vlasov-Poisson plasma system
   * Development of Particle-In-Cell simulation in electrostatic plasma system
   * Symplectic model reduction for preserving Hamiltonian form in reduced space
