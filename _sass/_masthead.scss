@@ -4,22 +4,21 @@
 
 .masthead {
   position: fixed;
-  background: white;
+  background: #fff;
   border-bottom: 1px solid $border-color;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
   height: $masthead-height;
   top: 0;
   width: 100%;
 
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
   z-index: 20;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 0.75em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
