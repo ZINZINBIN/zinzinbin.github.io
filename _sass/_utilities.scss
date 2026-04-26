@@ -118,12 +118,9 @@ body:hover .visually-hidden button {
 }
 
 /* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
-.wordwrap { 
-  white-space: pre-wrap;      /* CSS3 */   
-  white-space: -moz-pre-wrap; /* Firefox */    
-  white-space: -pre-wrap;     /* Opera <7 */   
-  white-space: -o-pre-wrap;   /* Opera 7 */    
-  word-wrap: break-word;      /* IE */
+.wordwrap {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 /*
@@ -385,7 +382,6 @@ body:hover .visually-hidden button {
 .sticky {
   @include breakpoint($large) {
     @include clearfix();
-    position: -webkit-sticky;
     position: sticky;
     top: 2em;
 
