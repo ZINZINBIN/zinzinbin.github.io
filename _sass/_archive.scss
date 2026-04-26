@@ -109,18 +109,22 @@
 
 
 /*
-   Grid wrapper — flex container for row alignment
+   Grid wrapper — CSS Grid container for card sections
    ========================================================================== */
 
 .grid__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25em;
   margin-bottom: 2em;
+  width: 100%;
 
-  // Float is ignored inside a flex container; keep width from Susy gallery
-  .grid__item {
-    float: none;
+  @include breakpoint($small) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -130,7 +134,7 @@
    ========================================================================== */
 
 .grid__item {
-  margin-bottom: 2em;
+  margin-bottom: 0;
 
   .page__meta {
     margin: 0 0 4px;
@@ -144,7 +148,6 @@
   .archive__item-excerpt {
     display: none;
 
-    // Normalize excerpt images so all cards in a row share the same height
     img {
       display: block;
       width: 100%;
@@ -156,17 +159,12 @@
   }
 
   @include breakpoint($small) {
-    @include gallery(5 of 10);
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
-    @include gallery(2.5 of 10);
-
     .archive__item-teaser {
       max-height: 120px;
     }
